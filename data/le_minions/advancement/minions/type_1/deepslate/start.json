@@ -1,0 +1,68 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wither_skeleton_spawn_egg"
+        },
+        "title": "Deepslate Minion",
+        "description": "Collect §b4x deepslate§a, §b4x polished deepslate§a and §b1x golden pickaxe§a",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "le_minions:minions/pickaxe",
+    "criteria": {
+        "item1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:deepslate",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "item2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:polished_deepslate",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "tool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "item1"
+        ],
+        [
+            "item2"
+        ],
+        [
+            "tool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "le_minions:minions/type_1/deepslate"
+        ]
+    }
+}

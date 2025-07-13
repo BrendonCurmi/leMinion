@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [
+                        1085844244,
+                        -1446688870,
+                        -1996481596,
+                        2086116866
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjljMzhmZTRmYzk4YTI0ODA3OWNkMDRjNjViNmJmZjliNDUwMTdmMTY0NjBkYWIzYzM0YzE3YmZjM2VlMWQyZiJ9fX0="
+                        }
+                    ]
+                }
+            },
+            "count": 1
+        },
+        "title": "First Granite Minion",
+        "description": "Craft your first granite minion",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "le_minions:minions/type_1/granite/start",
+    "criteria": {
+        "craft_minion": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "le_minions:minions/type_1/granite"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_minion"
+        ]
+    ]
+}

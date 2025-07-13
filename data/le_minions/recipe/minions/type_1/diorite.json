@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "minion.coal",
+    "group": "minion.diorite",
     "category": "redstone",
     "pattern": [
         "bob",
@@ -9,17 +9,17 @@
     ],
     "key": {
         "b": [
-            "minecraft:obsidian"
+            "minecraft:diorite"
         ],
         "o": [
-            "minecraft:crying_obsidian"
+            "minecraft:polished_diorite"
         ],
         "p": [
-            "minecraft:diamond_pickaxe"
+            "minecraft:wooden_pickaxe"
         ]
     },
     "result": {
-        "id": "minecraft:enderman_spawn_egg",
+        "id": "minecraft:sheep_spawn_egg",
         "components": {
             "minecraft:entity_data": {
                 "id": "minecraft:marker",
@@ -28,13 +28,13 @@
                     "new"
                 ],
                 "data": {
-                    "spawn_egg": "minecraft:enderman_spawn_egg",
+                    "spawn_egg": "minecraft:sheep_spawn_egg",
                     "type": "1",
-                    "material": "obsidian",
-                    "time_action": "600"
+                    "material": "diorite",
+                    "time_action": "200"
                 }
             },
-            "minecraft:item_name": "§aObsidian Minion",
+            "minecraft:item_name": "§aDiorite Minion",
             "minecraft:lore": [
                 "§7Place this minion on top of a",
                 "§7barrel and it will start generating",

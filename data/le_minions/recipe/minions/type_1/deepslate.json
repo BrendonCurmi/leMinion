@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "minion.coal",
+    "group": "minion.deepslate",
     "category": "redstone",
     "pattern": [
         "bob",
@@ -9,17 +9,17 @@
     ],
     "key": {
         "b": [
-            "minecraft:obsidian"
+            "minecraft:deepslate"
         ],
         "o": [
-            "minecraft:crying_obsidian"
+            "minecraft:polished_deepslate"
         ],
         "p": [
-            "minecraft:diamond_pickaxe"
+            "minecraft:golden_pickaxe"
         ]
     },
     "result": {
-        "id": "minecraft:enderman_spawn_egg",
+        "id": "minecraft:wither_skeleton_spawn_egg",
         "components": {
             "minecraft:entity_data": {
                 "id": "minecraft:marker",
@@ -28,13 +28,13 @@
                     "new"
                 ],
                 "data": {
-                    "spawn_egg": "minecraft:enderman_spawn_egg",
+                    "spawn_egg": "minecraft:wither_skeleton_spawn_egg",
                     "type": "1",
-                    "material": "obsidian",
-                    "time_action": "600"
+                    "material": "deepslate",
+                    "time_action": "200"
                 }
             },
-            "minecraft:item_name": "§aObsidian Minion",
+            "minecraft:item_name": "§aDeepslate Minion",
             "minecraft:lore": [
                 "§7Place this minion on top of a",
                 "§7barrel and it will start generating",

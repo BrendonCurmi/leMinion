@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [
+                        -1300865007,
+                        -430682384,
+                        -1881439081,
+                        328251765
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmNGYwOTY5NjY4YzM2ZThiNzM5ODE2NWViY2YyYTEzM2NhODhiMmI4YjNiZTZlOWM2Mzg0MzIwZmZiMTUwNyJ9fX0="
+                        }
+                    ]
+                }
+            },
+            "count": 1
+        },
+        "title": "First Deepslate Minion",
+        "description": "Craft your first deepslate minion",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "le_minions:minions/type_1/deepslate/start",
+    "criteria": {
+        "craft_minion": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "le_minions:minions/type_1/deepslate"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_minion"
+        ]
+    ]
+}
