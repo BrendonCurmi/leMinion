@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "minion.deepslate",
+    "category": "redstone",
+    "pattern": [
+        "bob",
+        "opo",
+        "bob"
+    ],
+    "key": {
+        "b": [
+            "minecraft:deepslate"
+        ],
+        "o": [
+            "minecraft:polished_deepslate"
+        ],
+        "p": [
+            "minecraft:golden_pickaxe"
+        ]
+    },
+    "result": {
+        "id": "minecraft:wither_skeleton_spawn_egg",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "leMinions.minion_setup",
+                    "new"
+                ],
+                "data": {
+                    "spawn_egg": "minecraft:wither_skeleton_spawn_egg",
+                    "type": "1",
+                    "material": "deepslate",
+                    "time_action": "200"
+                }
+            },
+            "minecraft:item_name": "§aDeepslate Minion",
+            "minecraft:lore": [
+                "§7Place this minion on top of a",
+                "§7barrel and it will start generating",
+                "§7and collecting the desired material!",
+                "§7Check out its head on the barrel",
+                "§7to learn more about it.",
+                "",
+                "§9§lLEMINIONS"
+            ]
+        },
+        "count": 1
+    },
+    "show_notification": true
+}
