@@ -5,7 +5,6 @@
         },
         "title": "Sand Minion",
         "description": "Collect §b4x sand§a, §b4x sandstone§a and §b1x wooden shovel§a",
-        "background": "",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "minecraft:sand",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:sandstone",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

@@ -6,9 +6,9 @@ $function le_minions:minions/ui/action/upgrades/fuel/update_efficiency {path: "e
 function le_minions:minions/ui/action/upgrades/fuel/update_time_action
 
 #return item
-execute in overworld run data remove block 0 -64 0 Items
-$execute in overworld run data modify block 0 -64 0 Items[{Slot:0b}].id set from entity @s data.leMinions.ui.upgrades.$(slot).id
-execute in overworld run loot give @p[tag=this_player] mine 0 -64 0 stick[custom_data={drop_contents:1b}]
+execute in overworld run data remove block 99999 -64 99999 Items
+$execute in overworld run data modify block 99999 -64 99999 Items[{Slot:0b}].id set from entity @s data.leMinions.ui.upgrades.$(slot).id
+execute in overworld run loot give @p[tag=this_player] mine 99999 -64 99999 stick[custom_data={drop_contents:1b}]
 
 #remove
 $data remove entity @s data.leMinions.ui.upgrades.$(slot)

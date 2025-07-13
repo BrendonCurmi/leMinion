@@ -1,23 +1,23 @@
 {
-  "display": {
-    "icon": {
-      "count": 1,
-      "id": "minecraft:barrel"
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "minecraft:barrel"
+        },
+        "title": "Minions",
+        "description": "Getting started with minions",
+        "background": "minecraft:block/barrel_side",
+        "announce_to_chat": false,
+        "show_toast": false
     },
-    "title": "Minions",
-    "description": "Getting started with minions",
-    "background": "minecraft:textures/block/barrel_side.png",
-    "announce_to_chat": false,
-    "show_toast": false
-  },
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
     ]
-  ]
 }

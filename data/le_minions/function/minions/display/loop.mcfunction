@@ -3,4 +3,4 @@
 
 scoreboard players remove @s leMinions.timer 1
 
-execute if score @s leMinions.timer matches 0 run data merge entity @s {text: '""'}
+execute if score @s leMinions.timer matches 0 run data merge entity @s {text: ""}

@@ -11,7 +11,7 @@ execute if data block ~ ~-1 ~ Items[] run function le_minions:minions/new/barrel
 #spawn
 summon text_display ~ ~1.3 ~ {Tags:["leMinions.minion_display","leMinions.new_minion"],alignment:"center",billboard:"center", see_through:0b}
 
-summon armor_stand ~ ~ ~ {Tags:["leMinions.minion_as","leMinions.new_minion"],Small:true,Invulnerable:true,NoBasePlate:true,ShowArms:true,DisabledSlots:4144959,equipment: {mainhand: {count: 1, id: "minecraft:wooden_pickaxe"}, head: {count: 1, id: "minecraft:player_head"}, chest: {count: 1, id: "minecraft:leather_chestplate"}, legs: {count: 1, id: "minecraft:leather_leggings"}, feet: {count: 1, id: "minecraft:leather_boots"}},Pose:{Head:[0f,0f,0f],LeftArm:[0f,0f,345f],RightArm:[0f,0f,15f]}}
+summon armor_stand ~ ~ ~ {Tags:["leMinions.minion_as","leMinions.new_minion"],Small:true,Invulnerable:true,NoBasePlate:true,ShowArms:true,DisabledSlots:4144959,equipment: {mainhand: {count: 1, id: "minecraft:wooden_pickaxe"}, offhand: {count: 1, id: "minecraft:dirt"}, head: {count: 1, id: "minecraft:player_head"}, chest: {count: 1, id: "minecraft:leather_chestplate"}, legs: {count: 1, id: "minecraft:leather_leggings"}, feet: {count: 1, id: "minecraft:leather_boots"}},Pose:{Head:[0f,0f,0f],LeftArm:[0f,0f,345f],RightArm:[0f,0f,15f]}}
 
 summon marker ~ ~ ~ {Tags:["leMinions.minion","leMinions.working","leMinions.new_minion", "leMinions.minion_setup"],data:{leMinions:{item_count:0, max_storage: 64, efficiency: 0}}}
 
@@ -27,6 +27,7 @@ data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinio
 
 execute if data entity @s data{type:"1"} run data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinions.pos.y set value -1
 execute if data entity @s data{type:"2"} run data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinions.pos.y set value -1
+execute if data entity @s data{type:"3"} run data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinions.pos.y set value 0
 
 data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinions.dp_version set from storage le_minions:stats dp_version.version
 $data modify entity @e[tag=leMinions.new_minion,limit=1,type=marker] data.leMinions.stats set from storage le_minions:stats $(type).$(material)

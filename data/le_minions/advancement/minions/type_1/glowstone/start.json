@@ -3,9 +3,8 @@
         "icon": {
             "id": "minecraft:cod_spawn_egg"
         },
-        "title": "glowstone Minion",
-        "description": "Collect §b4x glowstone§a, §b4x smooth glowstone§a and §b1x golden pickaxe§a",
-        "background": "",
+        "title": "Glowstone Minion",
+        "description": "Collect §b4x glowstone§a, §b4x glowstone dust§a and §b1x golden pickaxe§a",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "minecraft:glowstone",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:glowstone_dust",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

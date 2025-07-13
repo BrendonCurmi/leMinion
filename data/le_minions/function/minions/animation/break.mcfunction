@@ -1,6 +1,6 @@
 execute as @e if score @s leMinions.id = @e[tag=leMinions.minion_as,limit=1,sort=nearest] leMinions.id run tag @s add this
 
-$execute if score @s leMinions.animation matches 14 as @e[tag=this,tag=leMinions.minion_as,type=armor_stand,limit=1] at @s run rotate @s facing ~$(x) ~$(y) ~$(z)
+$execute if score .rotation leMinions.config matches 1 if score @s leMinions.animation matches 14 as @e[tag=this,tag=leMinions.minion_as,type=armor_stand,limit=1] at @s run rotate @s facing ~$(x) ~$(y) ~$(z)
 execute if score @s leMinions.animation matches 14 run data merge entity @e[tag=this,tag=leMinions.minion_as,type=armor_stand,limit=1] {Pose:{Head:[30f,0f,0f],RightArm:[225f,40f,0f]}}
 
 execute if score @s leMinions.animation matches 13 run data merge entity @e[tag=this,tag=leMinions.minion_as,type=armor_stand,limit=1] {Pose:{RightArm:[225f,40f,0f]}}

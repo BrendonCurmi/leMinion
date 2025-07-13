@@ -4,8 +4,7 @@
             "id": "minecraft:endermite_spawn_egg"
         },
         "title": "Coal Minion",
-        "description": "Collect §b4x coal ores§a, §b4x coal blocks§a and §b1x iron pickaxe§a",
-        "background": "",
+        "description": "Collect §b4x coal ores§a, §b4x coal blocks§a and §b1x stone pickaxe§a",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "#minecraft:coal_ores",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:coal_block",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -40,7 +43,9 @@
                 "items": [
                     {
                         "items": "minecraft:stone_pickaxe",
-                        "count": 1
+                        "count": {
+                          "min": 1
+                        }
                     }
                 ]
             }

@@ -22,7 +22,6 @@
         },
         "title": "First Soul Sand Minion",
         "description": "Craft your first soul sand minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

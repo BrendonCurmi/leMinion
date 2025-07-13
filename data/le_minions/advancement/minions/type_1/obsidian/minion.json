@@ -22,7 +22,6 @@
         },
         "title": "First Obsidian Minion",
         "description": "Craft your first obsidian minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

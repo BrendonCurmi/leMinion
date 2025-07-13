@@ -31,7 +31,7 @@
                     "spawn_egg": "minecraft:cod_spawn_egg",
                     "type": "1",
                     "material": "glowstone",
-                    "time_action": "200"
+                    "time_action": "500"
                 }
             },
             "minecraft:item_name": "§aGlowstone Minion",

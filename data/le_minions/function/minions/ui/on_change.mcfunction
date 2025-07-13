@@ -1,3 +1,5 @@
+data modify storage le_minions:stats minion set from storage le_minions:stats minion
+
 #on input
 function le_minions:minions/ui/get_player
 data modify storage le_minions:ui in set from storage le_minions:ui current

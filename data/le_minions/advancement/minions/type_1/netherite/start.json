@@ -1,0 +1,70 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cave_spider_spawn_egg"
+        },
+        "title": "Netherite Minion",
+        "description": "Collect §b4x netherite ingots§a, §b4x netherite blocks§a and §b1x nether star§a",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "le_minions:minions/pickaxe",
+    "criteria": {
+        "item1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_ingot",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "item2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_block",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "tool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:nether_star",
+                        "count":{
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "item1"
+        ],
+        [
+            "item2"
+        ],
+        [
+            "tool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "le_minions:minions/type_1/netherite"
+        ]
+    }
+}

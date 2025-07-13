@@ -31,7 +31,7 @@
                     "spawn_egg": "minecraft:vex_spawn_egg",
                     "type": "1",
                     "material": "clay",
-                    "time_action": "200"
+                    "time_action": "400"
                 }
             },
             "minecraft:item_name": "§aClay Minion",

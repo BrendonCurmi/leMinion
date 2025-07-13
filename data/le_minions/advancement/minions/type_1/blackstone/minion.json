@@ -22,7 +22,6 @@
         },
         "title": "First Blackstone Minion",
         "description": "Craft your first blackstone minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

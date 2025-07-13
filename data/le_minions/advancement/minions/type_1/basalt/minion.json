@@ -22,7 +22,6 @@
         },
         "title": "First Basalt Minion",
         "description": "Craft your first basalt minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

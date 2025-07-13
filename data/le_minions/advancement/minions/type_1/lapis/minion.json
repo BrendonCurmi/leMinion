@@ -22,7 +22,6 @@
         },
         "title": "First Lapis Minion",
         "description": "Craft your first lapis minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

@@ -5,7 +5,6 @@
         },
         "title": "Gold Minion",
         "description": "Collect §b4x gold ores§a, §b4x gold blocks§a and §b1x golden pickaxe§a",
-        "background": "",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "#minecraft:gold_ores",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:gold_block",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

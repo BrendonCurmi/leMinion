@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [
+                        478396522,
+                        -1158854420,
+                        -1492610906,
+                        1072075520
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0ZTZlZmVjZTBhMjk3MzE0YThlOTAzM2U1YmUxODcwNTU0YmNhOWM5NmExNDYyY2E2NmRiZDZlZDZlNjM4YSJ9fX0="
+                        }
+                    ]
+                }
+            },
+            "count": 1
+        },
+        "title": "First Potato Minion",
+        "description": "Craft your first potato minion",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "le_minions:minions/type_3/potato/start",
+    "criteria": {
+        "craft_minion": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "le_minions:minions/type_3/potato"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_minion"
+        ]
+    ]
+}

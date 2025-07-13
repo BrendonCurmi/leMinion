@@ -22,7 +22,6 @@
         },
         "title": "First Copper Minion",
         "description": "Craft your first copper minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

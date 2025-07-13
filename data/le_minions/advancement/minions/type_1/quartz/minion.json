@@ -22,7 +22,6 @@
         },
         "title": "First Quartz Minion",
         "description": "Craft your first quartz minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

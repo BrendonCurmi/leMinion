@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": "Hoe Minions",
+    "description": "",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "le_minions:minions/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

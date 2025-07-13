@@ -1,0 +1,2 @@
+data modify storage le_minions:stats upgrades.item.id set value "minecraft:shulker_box"
+$data modify storage le_minions:stats upgrades.item.shulker_box_id set from block ~ ~ ~ Items[{Slot:$(slot)b}].id

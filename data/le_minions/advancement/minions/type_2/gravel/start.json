@@ -5,7 +5,6 @@
         },
         "title": "Gravel Minion",
         "description": "Collect §b4x gravel§a, §b4x flint§a and §b1x wooden shovel§a",
-        "background": "",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "minecraft:gravel",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:flint",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

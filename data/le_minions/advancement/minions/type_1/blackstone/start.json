@@ -5,7 +5,6 @@
         },
         "title": "Blackstone Minion",
         "description": "Collect §b4x blackstone§a, §b4x polished blackstone§a and §b1x golden pickaxe§a",
-        "background": "",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "minecraft:blackstone",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:polished_blackstone",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

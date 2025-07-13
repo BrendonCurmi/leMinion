@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "minion.potato",
+    "category": "redstone",
+    "pattern": [
+        "bbb",
+        "bpb",
+        "bbb"
+    ],
+    "key": {
+        "b": [
+            "minecraft:potato"
+        ],
+        "p": [
+            "minecraft:iron_hoe"
+        ]
+    },
+    "result": {
+        "id": "minecraft:llama_spawn_egg",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "leMinions.minion_setup",
+                    "new"
+                ],
+                "data": {
+                    "spawn_egg": "minecraft:llama_spawn_egg",
+                    "type": "3",
+                    "material": "potato",
+                    "time_action": "300"
+                }
+            },
+            "minecraft:item_name": "§bPotato Minion",
+            "minecraft:lore": [
+                "§7Place this minion on top of a ",
+                "§7barrel and it will start generating ",
+                "§7and collecting the desired material! ",
+                "§7Check out its head on the barrel",
+                "§7to learn more about it.",
+                " ",
+                "§9§lLEMINIONS"
+            ]
+        },
+        "count": 1
+    },
+    "show_notification": true
+}

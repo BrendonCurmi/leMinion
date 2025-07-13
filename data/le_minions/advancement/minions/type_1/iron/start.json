@@ -5,7 +5,6 @@
         },
         "title": "Iron Minion",
         "description": "Collect §b4x iron ores§a, §b4x iron blocks§a and §b1x iron pickaxe§a",
-        "background": "",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -18,7 +17,9 @@
                 "items": [
                     {
                         "items": "#minecraft:iron_ores",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }
@@ -29,7 +30,9 @@
                 "items": [
                     {
                         "items": "minecraft:iron_block",
-                        "count": 4
+                        "count": {
+                          "min": 4
+                        }
                     }
                 ]
             }

@@ -22,7 +22,6 @@
         },
         "title": "First Iron Minion",
         "description": "Craft your first iron minion",
-        "background": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true
