@@ -20,18 +20,18 @@
             },
             "count": 1
         },
-        "title": "First Deepslate Minion",
-        "description": "Craft your first deepslate minion",
+        "title": "First Cobbled Deepslate Minion",
+        "description": "Craft your first cobbled deepslate minion",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "le_minions:minions/type_1/deepslate/start",
+    "parent": "le_minions:minions/type_1/cobbled_deepslate/start",
     "criteria": {
         "craft_minion": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "le_minions:minions/type_1/deepslate"
+                "recipe_id": "le_minions:minions/type_1/cobbled_deepslate"
             }
         }
     },

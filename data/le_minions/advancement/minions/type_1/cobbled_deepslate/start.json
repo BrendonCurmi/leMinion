@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:wither_skeleton_spawn_egg"
         },
-        "title": "Deepslate Minion",
-        "description": "Collect §b4x deepslate§a, §b4x polished deepslate§a and §b1x golden pickaxe§a",
+        "title": "Cobbled Deepslate Minion",
+        "description": "Collect §b4x cobbled deepslate§a, §b4x polished deepslate§a and §b1x golden pickaxe§a",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false
@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:deepslate",
+                        "items": "minecraft:cobbled_deepslate",
                         "count": {
                           "min": 4
                         }
@@ -62,7 +62,7 @@
     ],
     "rewards": {
         "recipes": [
-            "le_minions:minions/type_1/deepslate"
+            "le_minions:minions/type_1/cobbled_deepslate"
         ]
     }
 }
