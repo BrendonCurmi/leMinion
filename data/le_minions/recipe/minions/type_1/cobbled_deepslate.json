@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "minion.deepslate",
+    "group": "minion.cobbled_deepslate",
     "category": "redstone",
     "pattern": [
         "bob",
@@ -9,7 +9,7 @@
     ],
     "key": {
         "b": [
-            "minecraft:deepslate"
+            "minecraft:cobbled_deepslate"
         ],
         "o": [
             "minecraft:polished_deepslate"
@@ -30,11 +30,11 @@
                 "data": {
                     "spawn_egg": "minecraft:wither_skeleton_spawn_egg",
                     "type": "1",
-                    "material": "deepslate",
+                    "material": "cobbled_deepslate",
                     "time_action": "200"
                 }
             },
-            "minecraft:item_name": "§aDeepslate Minion",
+            "minecraft:item_name": "§aCobbled Deepslate Minion",
             "minecraft:lore": [
                 "§7Place this minion on top of a",
                 "§7barrel and it will start generating",
