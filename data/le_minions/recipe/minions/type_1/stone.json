@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "minion.stone",
+    "category": "redstone",
+    "pattern": [
+        "bob",
+        "opo",
+        "bob"
+    ],
+    "key": {
+        "b": [
+            "minecraft:stone"
+        ],
+        "o": [
+            "minecraft:smooth_stone"
+        ],
+        "p": [
+            "minecraft:iron_pickaxe"
+        ]
+    },
+    "result": {
+        "id": "minecraft:ravager_spawn_egg",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "leMinions.minion_setup",
+                    "new"
+                ],
+                "data": {
+                    "spawn_egg": "minecraft:ravager_spawn_egg",
+                    "type": "1",
+                    "material": "stone",
+                    "time_action": "200"
+                }
+            },
+            "minecraft:item_name": "§aStone Minion",
+            "minecraft:lore": [
+                "§7Place this minion on top of a",
+                "§7barrel and it will start generating",
+                "§7and collecting the desired material!",
+                "§7Check out its head on the barrel",
+                "§7to learn more about it.",
+                "",
+                "§9§lLEMINIONS"
+            ]
+        },
+        "count": 1
+    },
+    "show_notification": true
+}
