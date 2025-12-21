@@ -1,0 +1,68 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skeleton_spawn_egg"
+        },
+        "title": "Bone Block Minion",
+        "description": "Collect §b4x bones§a, §b4x bone blocks§a and §b1x stone pickaxe§a",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "le_minions:minions/pickaxe",
+    "criteria": {
+        "item1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bone",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "item2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bone_block",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "tool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "item1"
+        ],
+        [
+            "item2"
+        ],
+        [
+            "tool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "le_minions:minions/type_1/bone_block"
+        ]
+    }
+}
