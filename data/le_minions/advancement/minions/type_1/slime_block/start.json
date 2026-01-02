@@ -1,0 +1,68 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:slime_spawn_egg"
+        },
+        "title": "Slime Block Minion",
+        "description": "Collect §b4x slime balls§a, §b4x slime blocks§a and §b1x iron sword§a",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "le_minions:minions/pickaxe",
+    "criteria": {
+        "item1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:slime_ball",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "item2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:slime_block",
+                        "count": {
+                          "min": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "tool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_sword",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "item1"
+        ],
+        [
+            "item2"
+        ],
+        [
+            "tool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "le_minions:minions/type_1/slime_block"
+        ]
+    }
+}

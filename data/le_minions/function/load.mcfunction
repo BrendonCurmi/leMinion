@@ -73,6 +73,8 @@ data modify storage le_minions:stats 1.soul_sand set value {color: "4336415", pr
 
 data modify storage le_minions:stats 1.clay set value {color: "5660203", profile: {id:[I;1252695985,-2048111482,-1226544339,-177122751],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRhMjc5ZTFjYzdkOThmYWE0YjgwY2ZkNGVkMTg2YTFhOTRiNmMxMTkxMGM0ZjdiZDcyMWY4Y2Q0NGI0NTg4YSJ9fX0="}]}, name: "§bClay", block: "clay", item: "clay_ball", count: 4, tool: "minecraft:iron_shovel", tool2: "minecraft:clay", sounds: {place: "playsound minecraft:block.gravel.place block @a[distance=..20] ~ ~ ~ 1 0.8 1", break: "playsound minecraft:block.gravel.break block @a[distance=..20] ~ ~ ~ 1 0.8 1"}}
 
+data modify storage le_minions:stats 1.slime_block set value {color: "4512046", profile: {id:[I;269884463,-838644462,-1205375314,2027633924],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVlYTU0YTc1MjAxZDY0NWIyMGNiMzRhMmExNTVkYjU0YTkyMzhmYTBiOWQ5MjVmYTNhMmRkYzA2NmFmMjdjOSJ9fX0="}]}, name: "§6Slime Block", block: "slime_block", item: "slime_block", count: 1, tool: "minecraft:iron_sword", tool2: "minecraft:slime_block", sounds: {place: "playsound minecraft:block.slime_block.place block @a[distance=..20] ~ ~ ~ 1 1 1", break: "playsound minecraft:block.slime_block.break block @a[distance=..20] ~ ~ ~ 1 1 1"}}
+
 
 
 
