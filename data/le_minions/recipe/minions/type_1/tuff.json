@@ -19,7 +19,7 @@
         ]
     },
     "result": {
-        "id": "minecraft:wither_spawn_egg",
+        "id": "minecraft:donkey_spawn_egg",
         "components": {
             "minecraft:entity_data": {
                 "id": "minecraft:marker",
@@ -28,7 +28,7 @@
                     "new"
                 ],
                 "data": {
-                    "spawn_egg": "minecraft:wither_spawn_egg",
+                    "spawn_egg": "minecraft:donkey_spawn_egg",
                     "type": "1",
                     "material": "tuff",
                     "time_action": "200"
